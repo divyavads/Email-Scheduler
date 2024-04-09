@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 });
 
 cron.schedule(
-  "40 17 * * *",
+  "0 10 * * *",
   function () {
     console.log("Sent at 10am");
 
